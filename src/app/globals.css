@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.gradient-conic {
+  background: conic-gradient(
+    from 123.62deg at 60.14% 59.61%,
+    #0c403f -189.46deg,
+    #101a1a 17.05deg,
+    #0c403f 170.54deg,
+    #101a1a 377.05deg
+  );
 }
